@@ -1,4 +1,4 @@
-# Mahob Taste - Beginner Guide
+# Mahob Khmer
 
 This is a multi-page restaurant website project built with HTML, Tailwind CSS (CLI), and a little JavaScript.
 It is beginner-friendly and runs as a static website (no backend required).
@@ -6,12 +6,14 @@ It is beginner-friendly and runs as a static website (no backend required).
 ## 1. Project overview
 
 This project includes:
+
 - Responsive layout (mobile, tablet, desktop)
 - Dark/Light mode toggle
 - Multi-page site structure
 - Local assets (fonts, images, CSS, JS)
 
 Main pages:
+
 1. `index.html` - Home
 2. `menu.html` - Menu listing
 3. `detail.html` - Food details
@@ -22,6 +24,7 @@ Main pages:
 ## 2. Tools you need (first time setup)
 
 Install these first:
+
 1. [Node.js LTS](https://nodejs.org/) (includes npm)
 2. A code editor (recommended: VS Code)
 3. A modern browser (Chrome, Edge, Firefox)
@@ -81,6 +84,7 @@ npm run dev:css
 ```
 
 What this does:
+
 - Watches `assets/css/input.css`
 - Regenerates `assets/css/output.css` automatically after changes
 
@@ -101,30 +105,39 @@ npm run build:css
 ## 7. Common issues and fixes
 
 ### A) Styles not updating
+
 Possible causes:
+
 - `dev:css` is not running
 - `output.css` is outdated
 
 Fix:
+
 1. Run `npm run dev:css`
 2. Refresh browser with hard reload (`Ctrl+F5`)
 
 ### B) Page looks broken suddenly
+
 Possible causes:
+
 - HTML syntax error
 - Merge conflict markers like `<<<<<<<`, `=======`, `>>>>>>>`
 
 Fix:
+
 1. Check the edited file for broken tags
 2. Remove any conflict markers
 3. Save and refresh
 
 ### C) Images not showing
+
 Possible causes:
+
 - Wrong filename or path
 - Case mismatch in file name
 
 Fix:
+
 1. Verify file exists in `assets/images/`
 2. Verify exact same name in HTML
 
@@ -139,12 +152,14 @@ Fix:
    - Folder: `/ (root)`
 5. Save and wait for deployment URL.
 
-## 9. Beginner project report (short)
+## 9. Project report (short)
 
 ### Goal
+
 Build a Khmer food website that is responsive, visually clear, and easy to navigate.
 
 ### What was implemented
+
 - 6 static pages
 - Tailwind CSS build workflow
 - Dark/Light mode toggle
@@ -153,16 +168,19 @@ Build a Khmer food website that is responsive, visually clear, and easy to navig
 - Localized Khmer content and local font files
 
 ### Challenges found
+
 - Merge conflict markers can break HTML rendering
 - Inconsistent list formatting in some detail sections
 - Category UI needed JavaScript to become functional
 
 ### Solutions applied
+
 - Cleaned conflict markers
 - Standardized UI elements (including bullet consistency in ingredient sections)
 - Added interactive filtering logic in `main.js`
 
 ### Current status
+
 Project is functional as a static front-end website and ready for presentation or GitHub Pages deployment.
 
 ## 10. Notes
