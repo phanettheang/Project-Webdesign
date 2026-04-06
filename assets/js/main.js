@@ -29,7 +29,7 @@
 
   const updateThemeButtons = () => {
     const isDark = root.classList.contains('dark');
-    const labelText = isDark ? 'ងងឹត' : 'ភ្លឺ';
+    const labelText = isDark ? '🌙' : '☀️';
     document.querySelectorAll('[data-theme-label]').forEach((label) => {
       label.textContent = labelText;
     });
